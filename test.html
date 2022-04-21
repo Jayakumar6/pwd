@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="app.css">
+    </head>
+    <header id="heading">
+        <h3>RANDOM PASSWORD GENERATOR</h3>
+    </header>
+    <body>
+        <div class="box1">
+        <input 
+        type="password"
+        placeholder="Your Password"
+        readonly
+        id="password1"
+        />
+        <br/>
+        <br/>
+        <button 
+        class="button"
+        id="button1",
+        onclick="genPassword()"
+        >GENERATE</button>
+        <button 
+        class="button"
+        id="button2",
+        onclick="copyPassword()"
+        >COPY</button>
+        </div>
+        <div>
+            <script src="./app.js" />
+        </div>
+    </body>
+</html>
